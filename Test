@@ -450,7 +450,6 @@ function initLibrary()
             local column1 = utility.create("ScrollingFrame", {
                 Size = UDim2.new(0.5, -2, 1, 0),
                 BackgroundTransparency = 1,
-                Position = UDim2.new(0.5, 2, 0, 0),
                 Active = true,
                 BorderSizePixel = 0,
                 BackgroundColor3 = Color3.fromRGB(255, 255, 255),
@@ -476,7 +475,7 @@ function initLibrary()
             local column2 = utility.create("ScrollingFrame", {
                 Size = UDim2.new(0.5, -2, 1, 0),
                 BackgroundTransparency = 1,
-                Position = UDim2.new(0.5, 2, 0, 0),
+                Position = UDim2.new(0.5, 1, 0, 0),
                 Active = true,
                 BorderSizePixel = 0,
                 BackgroundColor3 = Color3.fromRGB(255, 255, 255),
