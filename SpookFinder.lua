@@ -1,4 +1,4 @@
-loadstring(game:HttpGet('https://pastebin.com/raw/Kzh4NJR6'))("")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/SpookFinderob.lua'))("")
 
 
-que_on _teleport([[loadstring(game:HttpGet('https://pastebin.com/raw/Kzh4NJR6'))("")]])
+que_on _teleport([[https://raw.githubusercontent.com/Butterisgood/Butter/main/SpookFinderob.lua]])
