@@ -1,3 +1,23 @@
+--Discord Auto Invite
+pcall(function()
+    local Request = syn and syn.request or request
+    Request({
+        Url = "http://127.0.0.1:6463/rpc?v=1",
+        Method = "POST",
+        Headers = {
+            ["Content-Type"] = "application/json",
+            ["Origin"] = "https://discord.com"
+        },
+        Body = game.HttpService:JSONEncode({
+            cmd = "INVITE_BROWSER",
+            args = {
+                code = "ButterHub"
+            },
+            nonce = game.HttpService:GenerateGUID(false)
+        }),
+    })
+end)
+
 if game.PlaceId == 13822889 then -- 🌳 Lumber Tycoon 2
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/lt2'))("")
 elseif game.PlaceId == 6897226634 then -- Timber! 🌲
