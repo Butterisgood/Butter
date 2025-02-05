@@ -1,3 +1,4 @@
+--Discord Auto Invite
 pcall(function()
     local Request = syn and syn.request or request
     Request({
