@@ -1,5 +1,4 @@
 --Discord Auto Invite
---[[
 pcall(function()
     local Request = syn and syn.request or request
     Request({
@@ -18,7 +17,6 @@ pcall(function()
         }),
     })
 end)
-]]
 
 if game.PlaceId == 13822889 then -- 🌳 Lumber Tycoon 2
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/lt2'))("")
